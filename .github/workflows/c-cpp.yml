@@ -20,9 +20,9 @@ jobs:
       uses: fiam/arm-none-eabi-gcc@v1
       with:
         release: '7-2018-q2' # GNU ARM GCC version used by Nordic SDK 17.0.2
-
-    - name: which-gcc
-      run: which arm-none-eabi-gcc
       
     - name: make
       run: make
+
+    - name: sanity-check
+      run: if [ -f "_build/nrf52840_xxaa.hex" ]; then echo "Success"; else echo "Failure"; fi
