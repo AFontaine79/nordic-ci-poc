@@ -17,7 +17,7 @@ jobs:
     - name: arm-none-eabi-gcc
       uses: fiam/arm-none-eabi-gcc@v1
       with:
-        release: '7-2018-q2' # GNU ARM GCC version used by Nordic SDK 17.0.2 for POSIX builds
+        release: '9-2019-q4' # GNU ARM GCC version used by Nordic SDK 17.0.2
 
     - name: make
       run: make
