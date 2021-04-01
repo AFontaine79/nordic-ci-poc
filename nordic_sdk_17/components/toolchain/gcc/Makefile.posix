@@ -1,3 +1,7 @@
-GNU_INSTALL_ROOT ?= /usr/local/gcc-arm-none-eabi-7-2018-q2-update/bin/
+# Leave this undefined so that it defaults to empty string.
+# GitHub Action fiam/arm-none-eabi-gcc@v1 is putting this in a /tmp/???? directory, but it does seem to be added to path.
+# Thus, no need to do anything here.
+# GNU_INSTALL_ROOT ?= /usr/local/gcc-arm-none-eabi-7-2018-q2-update/bin/
+
 GNU_VERSION ?= 7.3.1
 GNU_PREFIX ?= arm-none-eabi
