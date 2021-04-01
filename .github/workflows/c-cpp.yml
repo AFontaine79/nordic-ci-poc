@@ -24,5 +24,3 @@ jobs:
     - name: make
       run: make
 
-    - name: sanity-check
-      run: if [ -f "_build/nrf52840_xxaa.hex" ]; then echo "Success"; else echo "Failure"; fi
