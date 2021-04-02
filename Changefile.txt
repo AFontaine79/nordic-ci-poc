@@ -2,3 +2,4 @@ This file's purpose is to be an arbitrary file to push 'changes' to the
 repo, thus triggering CI/CD process.
 Que sera sera.
 Que faisons-nous ici?
+Ça a marché?  Oui, ça a marché.
