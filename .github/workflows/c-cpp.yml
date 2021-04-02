@@ -28,5 +28,5 @@ jobs:
       with:
         dropbox_access_token: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
         src: _build/nrf52840_xxaa.hex
-        dest: /
+        dest: /D5_Project1_Deployment/
         mode: overwrite
