@@ -24,3 +24,9 @@ jobs:
     - name: make
       run: make
 
+    - uses: deka0106/upload-to-dropbox@v2
+      with:
+        dropbox_access_token: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
+        src: _build/nrf52840_xxaa.hex
+        dest: /
+        mode: overwrite
